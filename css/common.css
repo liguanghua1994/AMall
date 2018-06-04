@@ -1,0 +1,22 @@
+body,ul{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+}
+
+/*解决浮动元素父容器塌陷问题 begin*/
+.clearfix{*zoom:1}/*IE6和IE7*/
+.clearfix:after{content:"";display:block;clear:left;}/*IE8+和主流浏览器*/
+/*解决浮动元素父容器塌陷问题 end*/
+
+.border-box{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;/*Old Firefox*/
+    -webkit-box-sizing: border-box;/*Old Safari*/
+}
+.border-radius{
+    border-radius:50%;
+    -moz-border-radius:50%;/*Old Firefox*/
+}
