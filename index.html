@@ -6,10 +6,11 @@
   <title>商城-首页</title>
     <link rel="icon" type="img/x-ico" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" href="css/icomoon.css"/>
+    <link rel="stylesheet" type="text/css" href="css/pictureSwitch.css"/>
     <!--[if lte IE 7]>
-    <link rel="stylesheet" type="text/css" href="css/iecompatible.css"/>
+    <link rel="stylesheet" type="text/css" href="css/ie67compatible.css"/>
     <![endif]-->
 </head>
 <body>
@@ -82,9 +83,9 @@
             <div class="i-lsc-logo"></div>
             <div class="i-lsc-search">
                 <div class="i-lscs-input">
-                    <label for="i-lscsi-input" class="icon-font i-lscsi-search-icon border-box">&#xe986;</label>
+                    <label for="i-lscsi-input" class="icon-font i-lscsi-search-icon global-border-box">&#xe986;</label>
                     <input id="i-lscsi-input" class="i-lscsi-input" type="text" placeHolder="商品/店铺/活动"/>
-                    <a href="javascript:;" class="i-lscsi-search border-box">搜索</a>
+                    <a href="javascript:;" class="i-lscsi-search global-border-box">搜索</a>
                     <div id="i-lscsi-sresult" class="i-lscsi-sresult"></div>
                 </div>
                 <div class="i-lscs-hot">
@@ -105,7 +106,7 @@
             <div class="i-lsc-cart">
                 <i class="icon-font">&#xe93a;</i>
                 <span class="i-lsc-cart-text">购物车</span>
-                <span class="i-lsc-cart-count border-radius">0</span>
+                <span class="i-lsc-cart-count global-round">0</span>
                 <div class="i-lsc-cart-detail">
                     <div class="i-lsc-cart-white"></div>
                 </div>
@@ -117,6 +118,111 @@
             <div class="i-producttype">
                 <i class="icon-font i-producttype-icon">&#xe9bb;</i>
                 <span class="i-producttype-label">商品分类</span>
+                <div class="i-pt-triangle"></div>
+                <div class="i-pt-wrapper2"></div>
+                <div class="i-pt-wrapper">
+                    <ul class="i-pt-list">
+                        <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe901;</i>
+                                <span class="i-pt-label">女装/内衣</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: 2px;"></div>
+                        </li>
+                        <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe900;</i>
+                                <span class="i-pt-label">男装/运动户外</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -34px;"></div>
+                        </li>
+                        <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe906;</i>
+                                <span class="i-pt-label">女鞋/男鞋/箱包</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -70px;"></div>
+                        </li>
+                        <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe905;</i>
+                                <span class="i-pt-label">美妆/个人护理</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -106px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe904;</i>
+                                <span class="i-pt-label">腕表/眼镜/珠宝饰品</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -142px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe958;</i>
+                                <span class="i-pt-label">手机/数码/电脑办公</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -178px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe902;</i>
+                                <span class="i-pt-label">母婴玩具</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -214px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe9a0;</i>
+                                <span class="i-pt-label">零食/茶酒/进口食品</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -250px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe903;</i>
+                                <span class="i-pt-label">生鲜水果</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -286px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe95b;</i>
+                                <span class="i-pt-label">大家电/生活电器</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -322px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe908;</i>
+                                <span class="i-pt-label">厨具/家具建材</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -358px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe91f;</i>
+                                <span class="i-pt-label">图书音像</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -394px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe907;</i>
+                                <span class="i-pt-label">家纺/家饰/鲜花</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -430px;"></div>
+                        </li>
+                         <li class="i-pt-item">
+                            <a href="javascript:;" class="i-pt-link">
+                                <i class="icon-font i-pt-icon">&#xe998;</i>
+                                <span class="i-pt-label">医药保健</span>
+                            </a>
+                            <div class="i-pti-wrapper" style="top: -466px;"></div>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
             <div class="i-nav">
                 <ul class="i-nav-list">
@@ -134,6 +240,34 @@
             </div>
         </div>
     </div>
+    <div id="i-ps-wrapper" class="i-ps-wrapper" style="background-color: #0186d9">
+        <div class="i-ps">
+            <div id="ps1-container" class="ps-container">
+                <div id="ps1-img-wrapper" class="ps-img-wrapper">
+                    <img src="img/ps5.jpg">
+                    <img src="img/ps1.jpg">
+                    <img src="img/ps2.jpg">
+                    <img src="img/ps3.jpg">
+                    <img src="img/ps4.jpg">
+                    <img src="img/ps5.jpg">
+                    <img src="img/ps1.jpg">
+                </div>
+                <a id="ps1-prev" href="javascript:;" class="icon-font ps-prev" style="display: none">&#xea53;</a>
+                <a id="ps1-next" href="javascript:;" class="icon-font ps-next" style="display: none">&#xea51;</a>
+                <div id="ps1-index-wrapper" class="ps-index-wrapper">
+                    <a data-index="1" data-color="#687cc1" class="ps-index-on" href="javascript:;"></a>
+                    <a data-index="2" data-color="#fa4268" class="ps-index-off" href="javascript:;"></a>
+                    <a data-index="3" data-color="#ffd541" class="ps-index-off" href="javascript:;"></a>
+                    <a data-index="4" data-color="#ebebeb" class="ps-index-off" href="javascript:;"></a>
+                    <a data-index="5" data-color="#4daaef" class="ps-index-off" href="javascript:;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/pictureSwitch.js"></script>
+    <script type="text/javascript">
+        pictureSwitching(1,1190,500,150,2000);
+    </script>
 </body>
 </html>

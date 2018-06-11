@@ -11,12 +11,15 @@ body{
 .clearfix:after{content:"";display:block;clear:left;}/*IE8+和主流浏览器*/
 /*解决浮动元素父容器塌陷问题 end*/
 
-.border-box{
+/*全局边框盒子模型*/
+.global-border-box{
     box-sizing: border-box;
     -moz-box-sizing: border-box;/*Old Firefox*/
     -webkit-box-sizing: border-box;/*Old Safari*/
 }
-.border-radius{
+
+/*全局圆形*/
+.global-round{
     border-radius:50%;
     -moz-border-radius:50%;/*Old Firefox*/
 }
