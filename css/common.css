@@ -5,6 +5,16 @@ body,ul{
 body{
     font-size: 14px;
 }
+img{
+    border:none;/*IE8 9 10存在蓝色边框，原因可能是加了变形和过渡*/
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
 
 /*解决浮动元素父容器塌陷问题 begin*/
 .clearfix{*zoom:1}/*IE6和IE7*/
