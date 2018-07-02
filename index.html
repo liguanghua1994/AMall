@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
     <link rel="stylesheet" type="text/css" href="css/icomoon.css"/>
     <link rel="stylesheet" type="text/css" href="css/pictureSwitch.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="css/ie678compatible.css"/>
+    <![endif]-->
     <!--[if lte IE 7]>
     <link rel="stylesheet" type="text/css" href="css/ie67compatible.css"/>
     <![endif]-->
@@ -26,9 +29,40 @@
                     <li  class="i-hnl-item">
                         <a href="" class="i-hnl-link i-hnl-link-white">
                             <i class="icon-font" style="color:#FF0036">&#xe947;</i>
-                            <span class="i-hnl-link-text">广州</span>
+                            <span id="i-hnl-link-text" class="i-hnl-link-text">广州</span>
                         </a>
-                        <div class="i-location"></div>
+                        <div id="i-location" class="i-location">
+                            <ul id="i-location-list" class="i-location-list">
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link i-location-link-active">广州</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">北京</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">上海</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">深圳</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">杭州</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">武汉</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">长沙</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">成都</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">青岛</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">厦门</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">南宁</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">岳阳</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">南昌</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">贵阳</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">昆明</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">重庆</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">合肥</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">南京</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">济南</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">郑州</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">西安</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">兰州</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">西宁</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">银川</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">太原</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">石家庄</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">天津</a></li>
+                                <li class="i-location-item"><a href="javascript:;" class="i-location-link">沈阳</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -72,13 +106,14 @@
                         </a>
                         <div class="i-qrcode">
                             <span class="i-qrcode-triangle"></span>
+                            <img src="img/qr.png" alt="二维码加载失败" class="i-qrcode-img">
                         </div>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="i-lsc-wrapper">
+    <div id="i-lsc-wrapper" class="i-lsc-wrapper">
         <div class="i-lsc clearfix">
             <div class="i-lsc-logo"></div>
             <div class="i-lsc-search">
@@ -127,7 +162,173 @@
                                 <i class="icon-font i-pt-icon">&#xe901;</i>
                                 <span class="i-pt-label">女装/内衣</span>
                             </a>
-                            <div class="i-pti-wrapper" style="top: 2px;"></div>
+                            <div class="i-pti-wrapper" style="top: 2px;">
+                                <div class="i-pti-left">
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">当季流行></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">夏季新品</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">商场同款</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">印花T恤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">棉麻面料</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">修身夹克</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">潮流卫衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">牛仔衬衫</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">保暖棉服</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">温暖的针织衫</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">修身西服</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">男士外套></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">夹克</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">单西</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">棒球服</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">棉衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">毛呢大衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">风衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">西服套装</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">羽绒服</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">皮衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动服</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">男士内搭></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">短袖T恤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">POLO衫</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">短袖衬衫</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">背心</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">卫衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">针织衫/毛衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">长袖衬衫</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">长袖T恤</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">男士裤装></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">小脚裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">9分裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">短裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">休闲裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">牛仔裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">针织裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">西裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">工装裤</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">运动服></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">短袖T恤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动卫衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">速干T恤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动Polo</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动内衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动套装</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动短裤</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">健身服</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">运动夹克</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="i-pti-item">
+                                        <div class="i-pti-item-title">
+                                            <h3 class="i-ptii-title">户外用品></h3>
+                                        </div>
+                                        <div class="i-pti-item-content">
+                                            <ul class="i-ptiic-list">
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">钓竿</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">双肩背包</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">防晒衣</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">户外包</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">帐篷</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">手电筒</a></li>
+                                                <li class="i-ptiic-item"><a href="" class="i-ptiic-link">刀具</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="i-pti-right">
+                                    <ul class="i-brands-list">
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands1.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands2.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands3.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands4.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands5.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands6.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands7.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands8.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands9.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        <li class="i-brands-item">
+                                            <a href="" class="i-brands-link">
+                                                <img src="img/brands10.jpg" alt="" class="i-brands-img">
+                                            </a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
                         </li>
                         <li class="i-pt-item">
                             <a href="javascript:;" class="i-pt-link">
@@ -265,17 +466,17 @@
             <div class="i-promotions-one-bg"></div>
             <a class="i-promotions-link" href="">
                 <div class="i-promotions-one-wrapper">
-                <h2>iphone X</h2>
-                <p>Say hello to the future</p>
-                <h3>低至6999</h3>
+                <h2 class="i-promotions-name">iphone X</h2>
+                <p class="i-promotions-desc">Say hello to the future</p>
+                <h3 class="i-promotions-price">低至6999</h3>
                 <img src="img/iphonex.png" alt="">
             </div>
             </a>
             <div class="i-promotions-two-bg"></div>
             <a class="i-promotions-link" href="">
                 <div class="i-promotions-two-wrapper">
-                <h2>MacBook Pro</h2>
-                <h3>限时秒杀</h3>
+                <h2 class="i-promotions-name">MacBook Pro</h2>
+                <h3 class="i-promotions-price">限时秒杀</h3>
                 <img src="img/macbook.png" alt="">
             </div>
             </a>
@@ -461,8 +662,8 @@
                     </ul>
                 </div>
                 <div class="i-nav-section">
-                    <h3>自营覆盖区域</h3>
-                    <p>
+                    <h3 class="i-area-title">自营覆盖区域</h3>
+                    <p class="i-area-content">
                         目前已向全国9999个区县提供自营配送服务，
                         支持货到付款、
                         POS机刷卡和售后上门服务
@@ -493,7 +694,7 @@
                     <a href="" class="i-copyright-text">隐私政策</a>
                 </p>
                 <p class="i-copyright-section">
-                    <a href="" class="i-copyright-text">Copyright © 2018 逛客bagme.com 版权所有</a>
+                    <a href="" class="i-copyright-text">Copyright © 2018 爱买amall.com 版权所有</a>
                     <span class="i-copyright-line">|</span>
                     <a href="" class="i-copyright-text">经营证照</a>
                 </p>
@@ -521,19 +722,46 @@
             </div>
         </div>
     </div>
-    <div id="i-fixed-search-wrapper" class="i-fixed-search-wrapper">
-        <div class="i-fixed-search">
-            <div class="i-lsc-logo"></div>
-            <div class="i-lsc-search">
-                <div class="i-lscs-input">
-                    <label for="i-lscsi-input" class="icon-font i-lscsi-search-icon global-border-box"></label>
-                    <input id="i-lscsi-input2" class="i-lscsi-input" type="text" placeholder="商品/店铺/活动">
-                    <a href="javascript:;" class="i-lscsi-search global-border-box">搜索</a>
-                    <div id="i-lscsi-sresult2" class="i-lscsi-sresult"></div>
-                </div>
-            </div>
+    <div id="i-sidebar-wrapper" class="i-sidebar-wrapper" data-active="false">
+        <div class="i-sidebar-content"></div>
+        <div class="i-toolbar1-wrapper">
+            <ul class="i-toolbar-list">
+                <li class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe971;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">爱买会员</a>
+                </li>
+                <li id="i-toolbar-cart" class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe93a;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">购物车</a>
+                </li>
+                <li class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe9d9;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">收藏夹</a>
+                </li>
+                <li class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe96b;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">我的消息</a>
+                </li>
+                <li class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe96c;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">咨询客服</a>
+                </li>
+            </ul>
+        </div>
+        <div class="i-toolbar2-wrapper">
+            <ul class="i-toolbar-list">
+                <li id="global-gotop" class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xea50;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">返回顶部</a>
+                </li>
+                <li class="i-toolbar-item">
+                    <a href="javascript:;" class="icon-font i-toolbar-link-icon">&#xe909;</a>
+                    <a href="javascript:;" class="i-toolbar-link-text">意见反馈</a>
+                </li>
+            </ul>
         </div>
     </div>
+    <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/pictureSwitch.js"></script>
     <script type="text/javascript">

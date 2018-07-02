@@ -1,9 +1,11 @@
-body,ul{
+*{
     padding: 0;
     margin: 0;
 }
 body{
+    font-family: "微软雅黑","Microsoft Yahei",Arial,sans-serif;
     font-size: 14px;
+    color:#333;
 }
 img{
     border:none;/*IE8 9 10存在蓝色边框，原因可能是加了变形和过渡*/
@@ -23,13 +25,14 @@ a{
 
 /*全局边框盒子模型*/
 .global-border-box{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;/*Old Firefox*/
-    -webkit-box-sizing: border-box;/*Old Safari*/
 }
 
 /*全局圆形*/
 .global-round{
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
     border-radius:50%;
-    -moz-border-radius:50%;/*Old Firefox*/
 }
