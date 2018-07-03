@@ -136,6 +136,8 @@
     width: 465px;
     padding: 10px 0 10px 30px;
     font-size: 16px;
+    height: 18px;
+    line-height: 18px;
 }
 .i-lscsi-search {
     display: inline-block;

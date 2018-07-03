@@ -9,3 +9,6 @@
 .i-pt-triangle{
     top: -10px;
 }
+.ps-index-on, .ps-index-off {
+    margin: 0 2.5px;
+}
